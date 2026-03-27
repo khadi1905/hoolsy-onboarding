@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-// ---------- POST /auth/login (request body) — følger HK26-lignende kontrakt ----------
+// ---------- POST /auth/login (request body)
 
 export const LoginRequest = z.object({
   email: z.string().email(),
@@ -9,7 +9,7 @@ export const LoginRequest = z.object({
 
 export type LoginBody = z.infer<typeof LoginRequest>;
 
-// ---------- Responser (for når dere kobler mot ekte API) ----------
+// ---------- Responser (for når man kobler mot ekte API) ----------
 
 /** Placeholder-brukerform for senere justering mot PublicUserSchema */
 export const LoginUserPreview = z.object({
