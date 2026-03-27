@@ -118,7 +118,7 @@ export default function HvaViTrenger() {
           </p>
         </header>
 
-        {/* Vertikal stegliste: lys teal-sirkel med tynn kant + tittel og beskrivelse */}
+        {/* Vertikal stegliste */}
         <div
           style={{
             display: 'flex',
@@ -187,7 +187,7 @@ export default function HvaViTrenger() {
           ))}
         </div>
 
-        {/* Informasjonsboks: teal som stegsirklene, full bredde */}
+        {/* Informasjonsboks */}
         <div
           style={{
             width: '100%',
