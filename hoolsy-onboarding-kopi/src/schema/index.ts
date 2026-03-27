@@ -1,7 +1,7 @@
 // Primitives — delte API-responser for suksess/feil
 export { SuccessResponse, ErrorResponse, type ErrorReply } from './primitives';
 
-// Auth — kontrakter for login-forespørsel/-respons
+// Auth — kontrakter for login-forespørsel/respons
 export {
   LoginRequest,
   type LoginBody,
@@ -10,7 +10,7 @@ export {
   type LoginReply,
 } from './auth';
 
-// Vendor onboarding — illustrativ placeholder + kladd-former (byttes med @hk26/schema)
+// Vendor onboarding — illustrativ placeholder + kladd-former 
 export {
   VendorSchemaPlaceholder,
   type VendorRecordPlaceholder,
